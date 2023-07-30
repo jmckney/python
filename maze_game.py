@@ -1,4 +1,4 @@
-# import curses
+ import curses
 
 def create_maze():
     return [
@@ -56,4 +56,4 @@ def main(stdscr):
             break
 
 if __name__ == "__main__":
-   #pythonpython curses.wrapper(main)
+   curses.wrapper(main)
